@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="FrogWorld_Client.cpp">
+      <Filter>소스</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkManager.cpp">
+      <Filter>소스</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FrogWorld_Client.h">
+      <Filter>헤더파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>헤더파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol.h">
+      <Filter>헤더파일</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkManager.h">
+      <Filter>헤더파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\small.ico">
+      <Filter>리소스</Filter>
+    </Image>
+    <Image Include="res\FrogWorld_Client.ico">
+      <Filter>리소스</Filter>
+    </Image>
+    <Image Include="res\grass.bmp">
+      <Filter>리소스</Filter>
+    </Image>
+    <Image Include="res\grass_beige.bmp">
+      <Filter>리소스</Filter>
+    </Image>
+    <Image Include="res\grass_black.bmp">
+      <Filter>리소스</Filter>
+    </Image>
+    <Image Include="res\grass_bush.bmp">
+      <Filter>리소스</Filter>
+    </Image>
+    <Image Include="res\grass_flower.bmp">
+      <Filter>리소스</Filter>
+    </Image>
+    <Image Include="res\grass_mud.bmp">
+      <Filter>리소스</Filter>
+    </Image>
+    <Image Include="res\grass_stone.bmp">
+      <Filter>리소스</Filter>
+    </Image>
+    <Image Include="res\herb.bmp">
+      <Filter>리소스</Filter>
+    </Image>
+    <Image Include="res\cro.bmp">
+      <Filter>리소스</Filter>
+    </Image>
+    <Image Include="res\frog.bmp">
+      <Filter>리소스</Filter>
+    </Image>
+    <Image Include="res\blackTree.bmp">
+      <Filter>리소스</Filter>
+    </Image>
+    <Image Include="res\redTree.bmp">
+      <Filter>리소스</Filter>
+    </Image>
+    <Image Include="res\pig.bmp">
+      <Filter>리소스</Filter>
+    </Image>
+    <Image Include="res\attack_effect.bmp">
+      <Filter>리소스</Filter>
+    </Image>
+    <Image Include="res\redPotion.bmp">
+      <Filter>리소스</Filter>
+    </Image>
+    <Image Include="res\bluePotion.bmp">
+      <Filter>리소스</Filter>
+    </Image>
+    <Image Include="res\greenPotion.bmp">
+      <Filter>리소스</Filter>
+    </Image>
+    <Image Include="res\grass_hill.bmp">
+      <Filter>리소스</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="소스">
+      <UniqueIdentifier>{c7c963b1-65a4-4ede-a572-c490134887b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더파일">
+      <UniqueIdentifier>{9bbccb21-86fd-4c42-8790-7b7883c751bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스">
+      <UniqueIdentifier>{abd8f0f5-6076-43ab-8090-44f101b9cee4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FrogWorld_Client.rc">
+      <Filter>리소스</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
